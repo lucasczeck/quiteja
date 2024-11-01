@@ -1,51 +1,112 @@
-QuitejA
-Este é o repositório do projeto QuitejA. Siga as instruções abaixo para configurar e executar o projeto.
+# QuitejA
 
-Requisitos
-Python 3.11
-Git
-Configuração do Projeto
-1. Clonar o Repositório
-Para clonar o projeto do GitHub, execute o seguinte comando no terminal:
+<p align="center">
+  <img src="https://via.placeholder.com/150" alt="QuitejA Logo" width="150" height="150">
+</p>
 
+<p align="center">
+  <a href="#sobre">Sobre</a> •
+  <a href="#requisitos">Requisitos</a> •
+  <a href="#instalação">Instalação</a> •
+  <a href="#uso">Uso</a> •
+  <a href="#api">API</a> •
+  <a href="#contribuição">Contribuição</a> •
+  <a href="#licença">Licença</a>
+</p>
+
+## Sobre
+
+QuitejA é um projeto que [breve descrição do projeto]. Este README fornece instruções para configurar e executar o projeto.
+
+## Requisitos
+
+- Python 3.11
+- Git
+
+## Instalação
+
+### 1. Clone o Repositório
+
+```bash
 git clone https://github.com/lucasczeck/quiteja.git
 cd quiteja
-2. Selecionar a Branch Master
-Certifique-se de estar na branch master:
+```
 
+### 2. Selecione a Branch Master
+
+```bash
 git checkout master
-3. Criar um Ambiente Virtual
-Crie um ambiente virtual usando Python 3.11:
+```
 
+### 3. Crie um Ambiente Virtual
+
+```bash
 python3.11 -m venv venv
+```
+
 Ative o ambiente virtual:
 
-No Windows:
+- Windows:
+  ```bash
+  venv\Scripts\activate
+  ```
 
-venv\Scripts\activate
-No macOS e Linux:
+- macOS/Linux:
+  ```bash
+  source venv/bin/activate
+  ```
 
-source venv/bin/activate
-4. Instalar as Dependências
-Instale as bibliotecas necessárias do arquivo requirements.txt:
+### 4. Instale as Dependências
 
+```bash
 pip install -r requirements.txt
-Executando o Projeto
-1. Executar o Script de Processamento
-Para executar o script de processamento, use o seguinte comando:
+```
 
+## Uso
+
+### 1. Execute o Script de Processamento
+
+```bash
 python scripts/script.py
-2. Iniciar a API Flask
-Para iniciar a API Flask, execute:
+```
 
+### 2. Inicie a API Flask
+
+```bash
 python app.py
-A API estará disponível em http://127.0.0.1:5000/.
+```
 
-Fazendo Requisições à API
-Para fazer requisições à API, use a rota tipo/<id>. Por exemplo:
+A API estará disponível em `http://127.0.0.1:5000/`.
 
-http://127.0.0.1:5000/tipo/1
-Substitua 1 pelo ID desejado.
+## API
 
-Suporte
-Se você encontrar algum problema ou tiver dúvidas, por favor, abra uma issue no repositório do GitHub.
+### Endpoint: `/tipo/<id>`
+
+Retorna informações sobre um tipo específico.
+
+**Método:** GET
+
+**URL:** `http://127.0.0.1:5000/tipo/<id>`
+
+**Exemplo de Resposta:**
+
+```json
+{
+  "id": 1,
+  "nome": "Tipo Exemplo"
+}
+```
+
+## Contribuição
+
+Contribuições são bem-vindas! Por favor, leia o [guia de contribuição](CONTRIBUTING.md) para mais detalhes.
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+---
+
+<p align="center">
+  Desenvolvido com ❤️ por [Seu Nome/Organização]
+</p>
