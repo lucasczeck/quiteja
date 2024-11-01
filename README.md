@@ -1,10 +1,6 @@
 # QuitejA
 
 <p align="center">
-  <img src="https://via.placeholder.com/150" alt="QuitejA Logo" width="150" height="150">
-</p>
-
-<p align="center">
   <a href="#sobre">Sobre</a> •
   <a href="#requisitos">Requisitos</a> •
   <a href="#instalação">Instalação</a> •
@@ -96,17 +92,3 @@ Retorna informações sobre um tipo específico.
   "nome": "Tipo Exemplo"
 }
 ```
-
-## Contribuição
-
-Contribuições são bem-vindas! Por favor, leia o [guia de contribuição](CONTRIBUTING.md) para mais detalhes.
-
-## Licença
-
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
-
----
-
-<p align="center">
-  Desenvolvido com ❤️ por [Seu Nome/Organização]
-</p>
